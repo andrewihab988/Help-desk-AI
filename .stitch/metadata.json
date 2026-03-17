@@ -1,0 +1,57 @@
+{
+  "name": "projects/7505895826769386244",
+  "projectId": "7505895826769386244",
+  "title": "HelpDesk AI - Ticketing Chatbot",
+  "visibility": "PRIVATE",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "designTheme": {
+    "colorMode": "DARK",
+    "font": "INTER",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#6366F1",
+    "saturation": 3
+  },
+  "screens": {
+    "index": {
+      "id": "6f7ca98ad97b42abb06a83da7d093d84",
+      "sourceScreen": "projects/7505895826769386244/screens/6f7ca98ad97b42abb06a83da7d093d84",
+      "x": 0,
+      "y": 0,
+      "width": 2560,
+      "height": 2362,
+      "title": "HelpDesk AI Dashboard"
+    },
+    "chat": {
+      "id": "d356d117a35e4de0a4743477dee34361",
+      "sourceScreen": "projects/7505895826769386244/screens/d356d117a35e4de0a4743477dee34361",
+      "x": 2700,
+      "y": 0,
+      "width": 2560,
+      "height": 2048,
+      "title": "AI Assistant Chat"
+    },
+    "tickets": {
+      "id": "5163d186aff04f0db7734b249b47efd6",
+      "sourceScreen": "projects/7505895826769386244/screens/5163d186aff04f0db7734b249b47efd6",
+      "x": 5400,
+      "y": 0,
+      "width": 2560,
+      "height": 2048,
+      "title": "Tickets Management Page"
+    },
+    "knowledge": {
+      "id": "fa4354a3a390499eb747a57aec3575d2",
+      "sourceScreen": "projects/7505895826769386244/screens/fa4354a3a390499eb747a57aec3575d2",
+      "x": 8100,
+      "y": 0,
+      "width": 2560,
+      "height": 2048,
+      "title": "Knowledge Base Management"
+    }
+  },
+  "metadata": {
+    "userRole": "OWNER"
+  }
+}

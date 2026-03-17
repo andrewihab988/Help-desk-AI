@@ -1,0 +1,16 @@
+from sqlmodel import SQLModel, create_engine, Session
+from typing import Generator
+from app.config import get_settings
+
+settings = get_settings()
+
+engine = create_engine(settings.database_url, echo=True)
+
+
+def create_db_and_tables():
+    SQLModel.metadata.create_all(engine)
+
+
+def get_session() -> Generator[Session, None, None]:
+    with Session(engine) as session:
+        yield session
